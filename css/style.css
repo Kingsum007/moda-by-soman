@@ -1,0 +1,70 @@
+.hero {
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  color: #000;
+}
+
+.nav-link {
+  color: #333 !important;
+}
+
+footer {
+  background-color: #222;
+  color: #eee;
+}
+
+/* 🌙 Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode .navbar,
+.dark-mode .footer,
+.dark-mode .bg-white {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+
+.dark-mode .nav-link.active {
+  color: #f9c74f !important;
+}
+
+.dark-mode .contact-form input,
+.dark-mode .contact-form textarea {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+.dark-mode .btn-dark {
+  background-color: #f9c74f;
+  color: #000;
+}
+.dark-mode .navbar-brand {
+  color: #f9c74f !important; /* Yellow text in dark mode */
+}
+.dark-mode .navbar-brand:hover {
+  color: #ffda77 !important;
+}
+.portfolio-img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-img:hover {
+  transform: scale(1.03);
+}
